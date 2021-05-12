@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/test.js"></script>  
+</head>
+<body>
+
+    <div class="container">
+        <h2>Add and Multiply</h2>
+       
+        <form >
+          <div class="form-group">
+            <label for="num">1st Number:</label>
+            <input type="number" vaule="" class="form-control" id="number1" name="Number1">
+          
+            <label for="num">2nd Number:</label>
+            <input type="number"  vaule="" class="form-control" id="number2" name="Number2"><br><br>
+
+            <button type="submit" value="add" class="btn btn-primary" onclick="return myfun1()">Add</button>
+            <button type="submit" value="multiply" class="btn btn-primary" onclick="return myfun2()">Multiply</button>
+          </div>
+          <b>The result is: </b> 
+          <span id="result"></span>
+        </form>
+      </div>
+    
+</body>
+</html>
